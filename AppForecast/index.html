@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title> Weather Forecast </title>
+</head>
+
+<body>
+    <div class="bigger-box">
+        <input class="input-city" placeholder="Enter the name of the city">
+        <button class="button-search" onclick="clickInButton()">
+            <img class="img-search" alt="search" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+        <div class="middle-box">
+            <h2 class="city">Weather in Porto</h2>
+
+            <p class="time">28ºC</p>
+
+            <div class="minor-box">
+                <img class="img-forecast" alt="weather-info-icon" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="text-forecast"> Cloudy</p>
+            </div>
+            <p class="humidity"> Humidity: 35%</p>
+        </div>
+    </div>
+</body>
+
+</html>
